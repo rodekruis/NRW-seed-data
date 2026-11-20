@@ -13,6 +13,7 @@ Sources:
 
 - Flood depth: [JRC/GloFAS global river flood hazard maps](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-GLOFAS/flood_hazard/) v2.1.2, `_depth.tif` tiles (water depth in metres, ~90 m).
 - Lake mask: [HydroLAKES](https://www.hydrosheds.org/products/hydrolakes) v1.0 polygons.
+- Permanent-water fill mask: the `Permanent_WaterBodies` tiles of the same JRC dataset. JRC writes exactly 1.00 m on permanent water where its flood model has no depth; those pixels are nodata here. Modelled depths on permanent water are kept.
 
 The operational seed artifacts are the converted files in `../data-png/`. The scripts are maintained in:
 
