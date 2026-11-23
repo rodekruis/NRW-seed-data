@@ -2,8 +2,8 @@
   {
     "station_code": "G1045",
     "station_name": "Tendaho",
-    "lat": 11.6833,
-    "lon": 40.95,
+    "lat": 11.675,
+    "lon": 40.975,
     "pcodes": {
       "3": [
         "ET020101",
@@ -219,8 +219,8 @@
   {
     "station_code": "G1603",
     "station_name": "Gambella",
-    "lat": 8.25,
-    "lon": 34.57,
+    "lat": 8.225,
+    "lon": 34.575,
     "pcodes": {
       "3": [
         "ET120102",
@@ -581,8 +581,8 @@
   {
     "station_code": "G4954",
     "station_name": "Na",
-    "lat": 11.05000019,
-    "lon": 41.65000153,
+    "lat": 11.075,
+    "lon": 41.675,
     "pcodes": {
       "3": [
         "ET050101",
@@ -781,8 +781,8 @@
   {
     "station_code": "G4979",
     "station_name": "Na",
-    "lat": 10.05000019,
-    "lon": 35.75,
+    "lat": 10.025,
+    "lon": 35.725,
     "pcodes": {
       "3": [
         "ET081101",
@@ -831,8 +831,8 @@
   {
     "station_code": "G5068",
     "station_name": "Na",
-    "lat": 8.7,
-    "lon": 38.6,
+    "lat": 8.675,
+    "lon": 38.625,
     "pcodes": {
       "3": [
         "ET041007",
@@ -1033,8 +1033,8 @@
   {
     "station_code": "G5141",
     "station_name": "Na",
-    "lat": 4.349999905,
-    "lon": 41.95000076,
+    "lat": 4.325,
+    "lon": 41.975,
     "pcodes": {
       "3": [
         "ET042207",
@@ -1083,8 +1083,8 @@
   {
     "station_code": "G5173",
     "station_name": "Na",
-    "lat": 2.849999905,
-    "lon": 37.45000076,
+    "lat": 2.825,
+    "lon": 37.475,
     "pcodes": {
       "3": [
         "ET041207",
@@ -1182,8 +1182,8 @@
   {
     "station_code": "G6108",
     "station_name": "Woltkite (G6108)",
-    "lat": 8.25,
-    "lon": 37.7666,
+    "lat": 8.225,
+    "lon": 37.775,
     "pcodes": {
       "3": [
         "ET070112"

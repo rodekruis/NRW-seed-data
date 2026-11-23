@@ -41,3 +41,12 @@ spatial migration is not a recurring forecast update; rerun it only when the
 admin-area dataset or the station mappings are intentionally migrated again.
 The consolidated station and country summary is available in
 [`station-area-migration-report.md`](station-area-migration-report.md).
+
+## Station Location Fixes
+
+The pipeline reads each station's forecast in the GloFAS cell of its coordinates. In November 2026 (AB#45972), 17 stations were moved to the centre of their river cell:
+
+- 13 stations lay on a cell boundary next to a much smaller stream, so the forecast could come from the wrong cell. Their thresholds already belonged to the river cell and are unchanged.
+- 4 stations (G5142, G1966, G1967, G5368) lay in a small cell next to the river. They moved to GloFAS's own river cell (LISFLOOD X/Y in the GloFAS viewer), with the v4 thresholds of that cell.
+
+The method and the proposal are in `data/analysis/glofas_v5_thresholds/` in the NRW repository (`results/station_location_proposal.csv`); production is updated by a Prisma data migration in the NRW repository. The mock forecasts for ETH, KEN and PHL were regenerated for the new locations.
