@@ -2,8 +2,8 @@
   {
     "station_code": "G1966",
     "station_name": "Na",
-    "lat": 14.894,
-    "lon": 120.73,
+    "lat": 14.925,
+    "lon": 120.725,
     "pcodes": {
       "3": [
         "PH0301403",
@@ -25,47 +25,47 @@
     "thresholds": [
       {
         "return_period": 1.5,
-        "threshold_value": 8.624106547718124
+        "threshold_value": 2244.8860224455666
       },
       {
         "return_period": 2.0,
-        "threshold_value": 9.998351100094293
+        "threshold_value": 2598.7096992563374
       },
       {
         "return_period": 5.0,
-        "threshold_value": 13.380328346969343
+        "threshold_value": 3469.459830527114
       },
       {
         "return_period": 10.0,
-        "threshold_value": 15.619491559950816
+        "threshold_value": 4045.9721838972855
       },
       {
         "return_period": 20.0,
-        "threshold_value": 17.76735067290169
+        "threshold_value": 4598.976674474867
       },
       {
         "return_period": 50.0,
-        "threshold_value": 20.547533979649828
+        "threshold_value": 5314.784263524918
       },
       {
         "return_period": 100.0,
-        "threshold_value": 22.6308901371042
+        "threshold_value": 5851.1813221578195
       },
       {
         "return_period": 200.0,
-        "threshold_value": 24.706644477896276
+        "threshold_value": 6385.621158026225
       },
       {
         "return_period": 500.0,
-        "threshold_value": 27.44520817644159
+        "threshold_value": 7090.713039470754
       }
     ]
   },
   {
     "station_code": "G1967",
     "station_name": "Na",
-    "lat": 15.344,
-    "lon": 120.465,
+    "lat": 15.375,
+    "lon": 120.475,
     "pcodes": {
       "3": [
         "PH0306902",
@@ -78,39 +78,39 @@
     "thresholds": [
       {
         "return_period": 1.5,
-        "threshold_value": 40.967147727772875
+        "threshold_value": 93.50843271922624
       },
       {
         "return_period": 2.0,
-        "threshold_value": 46.884719365223425
+        "threshold_value": 106.95792826244126
       },
       {
         "return_period": 5.0,
-        "threshold_value": 61.44769696626743
+        "threshold_value": 140.0567590567509
       },
       {
         "return_period": 10.0,
-        "threshold_value": 71.08965530465115
+        "threshold_value": 161.97106506688084
       },
       {
         "return_period": 20.0,
-        "threshold_value": 80.33845323225513
+        "threshold_value": 182.99179352248046
       },
       {
         "return_period": 50.0,
-        "threshold_value": 92.31007346133276
+        "threshold_value": 210.20097032349184
       },
       {
         "return_period": 100.0,
-        "threshold_value": 101.28111816130499
+        "threshold_value": 230.59041942566466
       },
       {
         "return_period": 200.0,
-        "threshold_value": 110.21942902609766
+        "threshold_value": 250.90547085302546
       },
       {
         "return_period": 500.0,
-        "threshold_value": 122.01183296311359
+        "threshold_value": 277.70732369261646
       }
     ]
   },
@@ -531,8 +531,8 @@
   {
     "station_code": "G5368",
     "station_name": "Nia Pumping Station",
-    "lat": 8.886,
-    "lon": 125.541,
+    "lat": 8.875,
+    "lon": 125.575,
     "pcodes": {
       "3": [
         "PH1600201",
@@ -557,39 +557,39 @@
     "thresholds": [
       {
         "return_period": 1.5,
-        "threshold_value": 7.6213193281115466
+        "threshold_value": 2577.0694564072737
       },
       {
         "return_period": 2.0,
-        "threshold_value": 10.017507539389918
+        "threshold_value": 3193.3427102679025
       },
       {
         "return_period": 5.0,
-        "threshold_value": 15.91445942889279
+        "threshold_value": 4709.973879596918
       },
       {
         "return_period": 10.0,
-        "threshold_value": 19.818754690458242
+        "threshold_value": 5714.115680125144
       },
       {
         "return_period": 20.0,
-        "threshold_value": 23.56384844181474
+        "threshold_value": 6677.312603179137
       },
       {
         "return_period": 50.0,
-        "threshold_value": 28.411488152886548
+        "threshold_value": 7924.07222090232
       },
       {
         "return_period": 100.0,
-        "threshold_value": 32.04411195027009
+        "threshold_value": 8858.343108776677
       },
       {
         "return_period": 200.0,
-        "threshold_value": 35.663480913614826
+        "threshold_value": 9789.204999117354
       },
       {
         "return_period": 500.0,
-        "threshold_value": 40.43855099771507
+        "threshold_value": 11017.300506928505
       }
     ]
   },

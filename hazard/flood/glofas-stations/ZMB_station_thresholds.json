@@ -344,8 +344,8 @@
   {
     "station_code": "G1312",
     "station_name": "Mpatamato",
-    "lat": -13.25,
-    "lon": 28.1333,
+    "lat": -13.275,
+    "lon": 28.125,
     "pcodes": {
       "4": [
         "ZM101006008001",
@@ -746,8 +746,8 @@
   {
     "station_code": "G1323",
     "station_name": "KelongwaSchool60334550",
-    "lat": -13.7,
-    "lon": 26.3333,
+    "lat": -13.725,
+    "lon": 26.325,
     "pcodes": {
       "4": [
         "ZM108004111001",
@@ -1895,8 +1895,8 @@
   {
     "station_code": "G1361",
     "station_name": "Senanga60370001",
-    "lat": -16.1167,
-    "lon": 23.25,
+    "lat": -16.125,
+    "lon": 23.275,
     "pcodes": {
       "4": [
         "ZM110008148001",
@@ -2064,8 +2064,8 @@
   {
     "station_code": "G5696",
     "station_name": "Na",
-    "lat": -16.35000038,
-    "lon": 23.45000076,
+    "lat": -16.375,
+    "lon": 23.425,
     "pcodes": {
       "4": [
         "ZM109005126001",

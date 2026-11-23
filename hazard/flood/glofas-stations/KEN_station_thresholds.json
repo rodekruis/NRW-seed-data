@@ -2,8 +2,8 @@
   {
     "station_code": "G5142",
     "station_name": "ATHI MUNYU (3DA02)",
-    "lat": -1.095,
-    "lon": 37.194,
+    "lat": -1.075,
+    "lon": 37.225,
     "pcodes": {
       "3": [
         "KEN.14.1.1_1",
@@ -24,39 +24,39 @@
     "thresholds": [
       {
         "return_period": 1.5,
-        "threshold_value": 2.414147407025069
+        "threshold_value": 193.9387707781156
       },
       {
         "return_period": 2.0,
-        "threshold_value": 3.2877185651133445
+        "threshold_value": 268.61727790565294
       },
       {
         "return_period": 5.0,
-        "threshold_value": 5.43755265037311
+        "threshold_value": 452.3989865536744
       },
       {
         "return_period": 10.0,
-        "threshold_value": 6.860929878051187
+        "threshold_value": 574.0784690527867
       },
       {
         "return_period": 20.0,
-        "threshold_value": 8.226267488061486
+        "threshold_value": 690.7963500137164
       },
       {
         "return_period": 50.0,
-        "threshold_value": 9.993556975783513
+        "threshold_value": 841.875674672389
       },
       {
         "return_period": 100.0,
-        "threshold_value": 11.317891751592455
+        "threshold_value": 955.0883684281275
       },
       {
         "return_period": 200.0,
-        "threshold_value": 12.637394252262471
+        "threshold_value": 1067.8879680814985
       },
       {
         "return_period": 500.0,
-        "threshold_value": 14.378227248471354
+        "threshold_value": 1216.7056208983972
       }
     ]
   },
@@ -119,8 +119,8 @@
   {
     "station_code": "G5305",
     "station_name": "TANA HOLA (4G04)",
-    "lat": -1.5,
-    "lon": 40.05,
+    "lat": -1.525,
+    "lon": 40.075,
     "pcodes": {
       "3": [
         "KEN.21.2.7_1",
