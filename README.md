@@ -50,6 +50,7 @@ Population rasters as value-encoded PNGs. Also the input for the population figu
 - `glofas-stations/{ISO3}_station_thresholds.json` — per-station discharge thresholds by return period, plus station coordinates and the admin pcodes each station covers. This is the only flood threshold file the current pipeline reads.
 - `glofas-stations/locations-all-countries/` — station locations for 44 countries. For the 7 supported countries this duplicates the coordinates already in the threshold files; the remaining countries are kept as a starting point for onboarding. Provenance and currency are unknown.
 - `flood-extents/` — nation-wide flood extent per return period. See [its README](hazard/flood/flood-extents/README.md).
+- `glofas-return-period-curves/` — per GloFAS cell, the curve that turns discharge into a return period, and the upstream area. See [its README](hazard/flood/glofas-return-period-curves/README.md).
 
 ### hazard/drought
 
