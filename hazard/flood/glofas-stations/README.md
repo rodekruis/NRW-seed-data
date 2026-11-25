@@ -2,6 +2,19 @@
 
 The `*_station_thresholds.json` files contain one record per GloFAS station. The `pcodes` field contains the admin-area place codes used for that country's flood alert configuration and runtime exposure calculation.
 
+## Station Spatial Extents
+
+The `*_station_spatial_extents.geojson` files contain one area per GloFAS station, derived from river basins: the HydroBASINS level-7 polygon the station lies in plus the polygons up to 200 km downstream, clipped to the country. Each file is a GeoJSON FeatureCollection in EPSG:4326 with one feature per line; `station_code` links a feature to its record in the thresholds file, and `hydrobasins_ids` lists the polygons it is made of.
+
+The areas come next to the `pcodes`; nothing reads them yet. The level and the distance are a candidate, not a decision. A station whose area lies entirely outside its country has no feature (ETH G5173).
+
+They are built by the `build_station_spatial_extents` script in the NRW repository. Rerun it when station locations change:
+
+```bash
+cd /path/to/NRW/data
+uv run python -m data_management.seed_data_management.flood.build_station_spatial_extents
+```
+
 ## Migrating Station Mappings
 
 Mappings are migrated by the flood-specific
